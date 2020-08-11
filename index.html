@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativa! - Soluções digitais.</title>
+    <meta name="description" content="Agência especializada em marketing digital!">
+    <meta name="keywords" content="Agência Digital, Marketing, mobile, app">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kaike Ribeiro Pereira">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/4dae7202af.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.psd">
+</head>
+<!-- body -->
+<body>
+<head class="cabecalho">
+   <a href="index.html"><h1 class="logo"> Ativa! - Soluções digitais </h1></a>
+    <button class="btn-menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+    <!-- navegação -->
+    <nav class="menu">
+        <a class="btn-close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- banner principal -->
+</head>
+<div class="banner">
+    <div class="title">
+        <h2>OUSE INOVAR!</h2>
+        <h3>Criamos exatamente o que você precisa!</h3>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-cadastrar"> Cadastrar </button>
+        <button class=" btn btn-sobre"> Sobre </button>
+    </div>
+</div>
+<!-- Serviços -->
+<main class="servicos">
+    <article class="servico">
+        <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+        <div class="inner">
+            <a href="#">Campanhas publicitárias</a>
+            <h4>Impressos, VTs e Jingles</h4>
+            <p>
+                Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais. Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade.
+            </p>
+        </div>
+    </article>
+
+    <article class="servico">
+        <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+        <div class="inner">
+            <a href="#">Marketing Digital</a>
+            <h4>Administração de redes socias</h4>
+            <p>
+                Como agência de publicidade aplicamos estratégias nos meios digitais para que a seu negócio seja visto por milhões de usuários. O Brasil é o 5° país mais conectado do mundo. Por este motivo, o seu negócio não pode ficar fora do do mercado digital.
+            </p>
+        </div>
+    </article>
+
+    <article class="servico">
+        <a href="#"><img src="img/cs.jpg" alt="Criação de sites"></a>
+        <div class="inner">
+            <a href="#">Criação de sites</a>
+            <h4>Sites administráveis</h4>
+            <p>
+                Agora você pode administrar seu site quando e como quiser. E melhor ainda pois você pode pagar por este serviço, pois desenvolvemos de forma. Seu site atualizado, com seus últimos produtos, integração com redes sociais, agora é possível.
+            </p>
+        </div>
+    </article>
+</main>
+<!-- newsletter -->
+<section class="newsletter">
+    <h2>Inscreva-se agora!</h2>
+    <h3>Receba todas as novidades!</h3>
+    <form>
+        <input type="email" name="email" placeholder="seu email" id="email">
+        <input type="button" value="Cadastrar" class="btn-cadastro">
+    </form>
+</section>
+
+<!-- footer -->
+<footer class="rodape">
+    <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+    <p class="copyright">
+        Copyright © NodeProp  2020. Todos os direitos reservados. 
+    </p>
+</footer>
+
+
+<!-- jquery -->
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+<script>
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+</script>
+</body>
+
+</html>
